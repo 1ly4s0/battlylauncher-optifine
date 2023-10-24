@@ -1,0 +1,23 @@
+{
+  "id": "1.14.3-OptiFine_HD_U_F2",
+  "inheritsFrom": "1.14.3",
+  "time": "2023-10-24T22:18:04+02:00",
+  "releaseTime": "2023-10-24T22:18:04+02:00",
+  "type": "release",
+  "libraries": [
+    {
+      "name": "optifine:OptiFine:1.14.3_HD_U_F2"
+    },
+    {
+      "name": "optifine:launchwrapper-of:2.1"
+    }
+  ],
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "minimumLauncherVersion": "21",
+  "arguments": {
+    "game": [
+      "--tweakClass",
+      "optifine.OptiFineTweaker"
+    ]
+  }
+}
