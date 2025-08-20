@@ -1,0 +1,22 @@
+{
+  "id": "1.21.7-OptiFine_HD_U_J6_pre7",
+  "inheritsFrom": "1.21.7",
+  "time": "2025-08-20T16:09:23+02:00",
+  "releaseTime": "2025-08-20T16:09:23+02:00",
+  "type": "release",
+  "libraries": [
+    {
+      "name": "optifine:OptiFine:1.21.7_HD_U_J6_pre7"
+    },
+    {
+      "name": "optifine:launchwrapper-of:2.3"
+    }
+  ],
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "arguments": {
+    "game": [
+      "--tweakClass",
+      "optifine.OptiFineTweaker"
+    ]
+  }
+}
